@@ -1,0 +1,179 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #515360;
+    font-family: sans-serif;
+  }
+  
+  /* Main Heading Font */
+  .m-heading {
+    font-family: "Roboto Slab", serif;
+  }
+  
+  
+
+  .main-container {
+    height: 100vh;
+  }
+  
+  
+  .main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .main_row h1 {
+    font-size: 5rem;
+  }
+  
+  /* Making the main image the size of the screen */
+  .main_row img {
+    width: auto;
+    height: 100vh;
+  }
+  
+  /* About Section */
+  .about {
+    background: #313552;
+    border-radius: 0.5rem;
+  }
+
+  .salim{
+    color: rgb(148, 239, 20);
+  }
+  
+  .card {
+    border-bottom: 8px solid #f5ba09;
+  }
+  
+  /* Social Media Section */
+  #social-media {
+    background: #66676d;
+    margin-top: 50px;
+  }
+  
+  /* Add color to Social Media Links */
+  .media_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+  }
+
+  .skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  #skill-section {
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    background-color: rgb(145, 149, 152);
+  }
+
+  .skill-head{
+    width: 100%;
+    display: grid;
+    margin-bottom: 50px;
+    place-items: center;
+    text-align: center;
+  }
+
+  .main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:100px ;
+    grid-row-gap: 20px;
+  }
+  
+
+  p {
+    font-size: 20px;
+}
+
+.bar {
+    background-color: rgb(192, 192, 192);
+    width: 100%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.main .skill-bar .info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.10px;
+}
+
+.skill-bar .bar{
+  width: 100%;
+  height: 10px;
+  position: relative;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+
+.skill-bar .bar span{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #e74d0e;
+  border-radius: 25px;
+}
+
+.skill-bar .info .percent{
+  font-weight: bold;
+}
+
+.skill-bar .bar .html{
+  width: 80%;
+  animation: html 3s;
+}
+@keyframes html{
+  0%{
+    width: 0;
+  }100%{
+    width: 80%;
+  }
+}
+
+.skill-bar .bar .js{
+  width: 50%;
+  animation: js 3s;
+}
+@keyframes js{
+  0%{
+    width: 0;
+  }100%{
+    width: 50%;
+  }
+}
+
+.skill-bar .bar .code{
+  width: 70%;
+  animation:  code 3s;
+}
+@keyframes code{
+  0%{
+    width: 0;
+  }100%{
+    width: 70%;
+  }
+}
