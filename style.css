@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     background: #515360;
     font-family: sans-serif;
@@ -30,6 +30,15 @@ html {
   .main_row img {
     width: auto;
     height: 100vh;
+  }
+
+  .button{
+    margin-top: 35px;
+     margin-left: 150px; 
+  }
+
+  .folio{
+    display: block;
   }
   
   /* About Section */
@@ -172,12 +181,21 @@ html {
   }
 }
 
+
+.raju {
+  position: relative;
+  z-index: 3;
+  padding-top: 0px;
+  padding-bottom: 50px;
+} 
+
 section {
   position: relative;
   z-index: 3;
   padding-top: 50px;
   padding-bottom: 50px;
 } 
+
 
 .container {
   max-width: 1080px;
@@ -193,10 +211,10 @@ section {
 }
 
 .section-header h2 {
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   font-size: 3em;
-  margin-bottom: 20px;
+  margin-bottom: 20px;;
 }
 
 .section-header p {
@@ -335,6 +353,9 @@ section {
   justify-content: center; 
 }
 
+.muju{
+  background-color: #333;
+}
 
 .tahir{
   width: 28rem;
@@ -350,6 +371,13 @@ section {
   text-align: center;
 }
 
+.tahir2{
+  width: 28rem;
+  height:32rem;
+  margin-left:380px;
+  text-align: center;
+}
+
 .card-img-top1{
   height: 12.5rem;
 }
@@ -357,5 +385,3 @@ section {
 .card-body{
   background-color: #cecacb;
 }
-
-
